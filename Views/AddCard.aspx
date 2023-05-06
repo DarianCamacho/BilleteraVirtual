@@ -69,7 +69,6 @@
                         <select class="form-select" id="SelectEmisor" runat="server">
                             <option>Master Card</option>
                             <option>Visa</option>
-                            <option>American Express</option>
                         </select>
                     </div>
 
