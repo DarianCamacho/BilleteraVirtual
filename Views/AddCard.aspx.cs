@@ -23,7 +23,6 @@ namespace BilleteraVirtual.Views
             if (Page.IsValid)
             {
                 SaveTarjeta();
-                lblMensaje.Text = "Tarjeta guardada exitosamente.";
             }
         }
 
