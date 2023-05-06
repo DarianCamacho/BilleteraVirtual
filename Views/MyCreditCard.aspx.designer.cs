@@ -11,7 +11,7 @@ namespace BilleteraVirtual.Views
 {
 
 
-    public partial class Inicio
+    public partial class MyCreditCard
     {
 
         /// <summary>
@@ -33,12 +33,12 @@ namespace BilleteraVirtual.Views
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control repTarjetas.
+        /// Control repTarjeta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repTarjetas;
+        protected global::System.Web.UI.WebControls.Repeater repTarjeta;
     }
 }

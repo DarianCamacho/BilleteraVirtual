@@ -204,21 +204,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DatabaseHelper\spGetTarjeta.sql" />
     <Content Include="DatabaseHelper\spGetTarjetas.sql" />
+    <Content Include="DatabaseHelper\spSaveTarjeta.sql" />
+    <Content Include="Style\StyleAddCard.css" />
+    <Content Include="Style\StyleInicio.css" />
+    <Content Include="Views\AddCard.aspx" />
     <Content Include="Views\Inicio.aspx" />
+    <Content Include="Views\MyCreditCard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\MiTarjeta.cs" />
     <Compile Include="Controller\Tarjeta.cs" />
     <Compile Include="DatabaseHelper\Database.cs" />
+    <Compile Include="Model\MiTarjeta.cs" />
     <Compile Include="Model\Tarjeta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\AddCard.aspx.cs">
+      <DependentUpon>AddCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\AddCard.aspx.designer.cs">
+      <DependentUpon>AddCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyCreditCard.aspx.cs">
+      <DependentUpon>MyCreditCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\MyCreditCard.aspx.designer.cs">
+      <DependentUpon>MyCreditCard.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

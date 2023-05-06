@@ -1,0 +1,64 @@
+﻿.table {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 10px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    font-size: 1.5rem;
+}
+
+.credit-card {
+    background-image: url(Foto);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    height: 350px; /* Aumentar el tamaño de la tarjeta */
+    overflow: hidden;
+    position: relative;
+}
+
+    .credit-card .card-body {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: #fff;
+        font-weight: bold; /* Añadir negrita a los textos */
+    }
+
+        .credit-card .card-body h5.card-title {
+            font-size: 24px; /* Aumentar el tamaño de la fuente del título */
+            margin-bottom: 5px;
+        }
+
+        .credit-card .card-body hr {
+            border-color: #fff;
+        }
+
+        .credit-card .card-body small.text-muted {
+            font-size: 14px; /* Aumentar el tamaño de la fuente del texto pequeño */
+        }
+
+        .credit-card .card-body h6.card-text {
+            font-size: 24px; /* Aumentar el tamaño de la fuente del texto grande */
+            margin-bottom: 5px;
+        }
+        .credit-card .card-body h6.card-text {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #fff; /* Cambiar el color del texto a blanco */
+        }
+
+
